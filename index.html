@@ -19,9 +19,9 @@
             </a>
         </di>
         <ul class="navbar-items">
-            <li class="item"><a href="#">Work</a></li>
-            <li class="item"><a href="#">Me</a></li>
-            <li class="item"><a href="#">Resume</a></li>
+            <li class="item"><a href="#work">Work</a></li>
+            <li class="item"><a href="#me">Me</a></li>
+            <li class="item"><a href="#resume">Resume</a></li>
         </ul>
     </nav>
 
@@ -40,29 +40,35 @@
     </header>
 
     <!-- Projects -->
-    <section class="projects">
+    <section class="projects" id="work">
         <div class="projects-1">
-            <img src="./assets/img1.svg" alt="img1" />
-            <div class="project-content">
+            <img class="projects-1-img" src="./assets/img1.svg" alt="img1" />
+            <div class="project-content project-content-1">
                 <div class="project-content-imgs-1">
                     <div>
-                        <img src="./assets/p1.svg" alt="name2">
+                        <img class="project-content-imgs-1-p1" src="./assets/p1.svg" alt="name2">
                     </div>
                     <div>
                         <img class="project-content-imgs-1-p2" src="./assets/p2.svg" />
                     </div>
                 </div>
-                <div class="project-content-name">
+                <div class="project-content-name1">
                     <p> Cloud-Based Property
                         Management Software
                     </p>
                 </div>
-                <p class="project-content-subname">
+                <p class="project-content-subname1">
                     UX Case Study
                 </p>
-                <a href="http://google.com"><img class="auto-img" src="./assets/btn1.svg" alt="btn1"> See the Case
-                    Study</a>
-                <a><img class="auto-img" src="./assets/btn2.svg" alt="btn1"> See Miro Board</a>
+                <div class="projects-1-content-links">
+                    <a href="https://www.behance.net/gallery/113543215/On-Caf-UX-Case-Study"><img class="auto-img"
+                            src="./assets/btn1.svg" alt="btn1"> See the Case
+                        Study
+                    </a>
+                    <a href="https://miro.com/app/board/o9J_lYSzwm4=/"><img class="auto-img" src="./assets/btn2.svg"
+                            alt="btn1"> See Miro Board
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -221,20 +227,21 @@
                     </p>
                 </div>
             </div>
-            <div class="project-container">
+            <div class="project-container1">
                 <a href="https://www.behance.net/gallery/127025939/Travel-App-Design">
                     <img src="./assets/img8.svg" />
                 </a>
             </div>
-            <div class="project-container">
+            <div class="project-container1">
                 <a href="https://www.behance.net/gallery/130374167/Chat-App-Home-page-Design">
                     <img src="./assets/img9.svg" />
                 </a>
             </div>
         </div>
     </section>
+    <div class="bottom-line"></div>
     <!-- About me -->
-    <section class="about">
+    <section class="about" id="me">
         <div class="about-img">
             <img src="./assets/about-mos.svg" alt="moustaf">
         </div>
@@ -268,28 +275,31 @@
         </div>
     </section>
     <!-- Resume -->
-    <section class="resume">
+    <section class="resume" id="resume">
         <h3 class="resume-name">
             Mostafa Abo Elhareth
             <br>UX Designer
         </h3>
+        <div class="bottom-line-resume">
+
+        </div>
         <div>
             <h2>EDUCATION</h2>
             <p class="education">
                 Ain Shams University
-                Sep 2017 – Feb 2023 (expected) | Egypt
-                Bachelor of Computer Science,
+                Sep 2017 – Feb 2023 (expected) | Egypt<span class="break-line"></span>
+                Bachelor of Computer Science,<span class="break-line"></span>
                 Bioinformatics Department | Good
             </p>
         </div>
 
         <h2>WORK EXPERIENCE</h2>
         <div>
-            <h3 class="experience">EButler <span class="experience-line">UI/UX Designer</span></h3>
+            <h3 class="experience">EButler <span class="experience-line break-line">UI/UX Designer</span></h3>
             <p class="experience-date">Sep 2017 – Feb 2023 (expected) | Egypt</p>
         </div>
         <div>
-            <h3 class="experience">Taqo.io <span>UI/UX Designer</span></h3>
+            <h3 class="experience">Taqo.io <span class="break-line">UI/UX Designer</span></h3>
             <p class="experience-date">Sep 2021 – present | Los Angeles, California </p>
             <ul class="experience-list">
                 <li> Collaborated with developers to handle NFT websites like AkoinNFT, and other
@@ -297,9 +307,24 @@
                 <li> Conducted UX strategies to enhance the user experience of the required projects.</li>
             </ul>
         </div>
+
+
+
+        <div>
+            <h3 class="experience space">Syft.la <span class="break-line">UI/UX Designer</span></h3>
+            <p class="experience-date">Mar 2021 – Oct 2021 | Los Angeles, California </p>
+            <ul class="experience-list">
+                <li> Collaborated with UX team to handle the tasks for the Syft website and other
+                    projects in the same field, conducting Wireframes to the UI design to handoff to
+                    developers.</li>
+                <li> Worked also in the IOS & Android App design of SYFT.GG, with respect to
+                    Google and Apple guidelines with the mobile developer’s team, and testing the app
+                    eventually to make it as requested.</li>
+            </ul>
+        </div>
         <div>
             <h3 class="experience space">
-                Freelancer <span>UI/UX Designer</span>
+                Freelancer <span class="break-line">UI/UX Designer</span>
             </h3>
             <p class="experience-date">Jan 2021- Mar 2021 | Freelancer</p>
             <ul class="experience-list">
@@ -311,7 +336,7 @@
         </div>
         <div>
             <h3 class="experience space">
-                YooGad <span>UI/UX Designer</span>
+                YooGad <span class="break-line">UI/UX Designer</span>
             </h3>
             <p class="experience-date">Sep 2017 – Feb 2023 (expected) | Egypt</p>
             <ul class="experience-list">
@@ -323,8 +348,6 @@
         <a href="https://google.com" class="download-link"><img src="assets/bi_download.svg"> Dowenload Resume</a>
 
     </section>
-    <div class="aaa"></div>
-
     <script src='./menu.js'></script>
 </body>
 
