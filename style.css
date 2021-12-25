@@ -503,4 +503,8 @@ img {
   .projects-1-content-links {
     padding-top: 12%;
   }
+
+  .projects-2 .project-content {
+    margin-top: -5%;
+  }
 }
